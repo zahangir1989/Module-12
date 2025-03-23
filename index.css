@@ -61,13 +61,16 @@ nav ul li a{
     display: flex;
     gap:50px;
 }
-.btn-left{
-    background-color: #443d3d;
+.btn-left, .btn-right {
+    background-color: #433939eb;
     border-radius: 15px;
     padding: 5px 25px;
     border: none;
+    font-size: 10px;
+    color: #ffffff;
   
 }
+
 .btn-1{
     background-color: #E6533C;
     border-radius: 20px;
