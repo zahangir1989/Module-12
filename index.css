@@ -169,6 +169,22 @@ nav ul li a{
     font-size: small;
     color: #938585;  
 }
+.last-section{
+    padding: 40px 0;
+}
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.img3{
+    width: 205px;
+    height: 150px;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+}
 
 @media screen and (max-width: 500px) {
    .banner{
