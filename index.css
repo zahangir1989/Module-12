@@ -3,7 +3,7 @@
     background-color: rgb(34, 31, 31);
 }
 .header{
-  padding: ;
+  padding:24px;
 }
 nav{
   display: flex;
@@ -37,7 +37,7 @@ nav ul li a{
 }
 .banner{
     display: flex;
-    gap:45px;
+   gap:200px;
     padding-bottom: 20px;
     margin: 0 40px;
 }
@@ -56,8 +56,8 @@ nav ul li a{
     color: #938585;
 }
 .img{
-    width: 150px;
-    height: 380;
+    width: 250px;
+    height: 300px;
     margin-left: 40px;
 
 }
@@ -146,17 +146,21 @@ nav ul li a{
     font-size: small;
     color: #938585;  
 }
+.section{
+    padding: 0 40px;
+}
 .section-middle{
     display: flex;
-    justify-content: space-between;
+    gap:110px;
     background-color: #393131;
-    padding:20px;
+    padding: 30px;
     border-radius: 10px;
-    gap:40px;
+   
 }
 .img-middle{
     width: 150px;
     height: 150px;
+    border-radius: 30px;
 }
 .middle-title{
     padding-right: 40px;
@@ -175,12 +179,14 @@ nav ul li a{
 .img-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+ 
    
     
 }
 .img3{
-    width: 205px;
-    height: 150px;
+    width: 220px;
+    margin-top: 20px;
+    height: 180px;
     border-radius: 10px;
     margin-left: 10px;
 }
@@ -234,17 +240,12 @@ nav ul li a{
     border: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width:600px) {
    .banner{
     display: grid;
     grid-template-columns: repeat(1fr);
    }
-   .img-grid{
-    display: grid;
-    grid-template-columns: repeat(1fr);
-  
-    
-}
+
    nav{
     flex-direction: column;
    }
@@ -267,4 +268,5 @@ nav ul li a{
     gap:40px;
    
 }
+    
 };
