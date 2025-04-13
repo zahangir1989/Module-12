@@ -63,7 +63,7 @@ nav ul li a{
 }
 .img-btn{
     display: flex;
-    gap:50px;
+    gap:20px;
 }
 .btn-class{
     display: flex;
